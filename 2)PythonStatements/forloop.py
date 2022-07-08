@@ -1,3 +1,4 @@
+
 mylist = [1,2,3,4]
 for numbers in mylist:
     print(numbers)
@@ -23,6 +24,25 @@ my_string="Pradip Baral"
 for letters in my_string:
     print(letters)
 
+#the variable name can be anything including any symbol i.e it is described by the user
 for _ in 'Hello world':
     print(_)
 
+#now let us learn about tuple unpacking from for loop
+next_list=[(1,2),(3,4),(5,6)]
+print(len(next_list))
+for a,b in next_list:
+    print(a)
+
+#now lets discuss how to iterate to the dictionary through a foor loop
+d={'k1':1,'k2':2,'k3':3}
+print('If we try to print as like the tuples and list then only the key values will be printed as below')
+for items in d:
+    print(items)
+print("So for printing key with value")
+
+for a,b in d:
+    print(a,b)
+print("Printing only the values")
+for a,b in d:
+    print(b)

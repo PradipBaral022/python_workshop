@@ -59,6 +59,16 @@
 # print(a[3][0])
 # print(a[3][2])
 
-myset=set()
-myset.add(1)
-print(myset)
+# myset=set()
+# myset.add(1)
+# print(myset)
+
+# year=int(input("Enter the year:"))
+# if(year%4==0):
+#     if(year%100==0):
+#         if(year%400==0 ):
+#             print(True)
+#         else:
+#             print(False)
+#     print(True)
+

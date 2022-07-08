@@ -16,3 +16,9 @@ name='Pradip'
 a=F'The name is {name}'
 print(a)
 print(F'The name of the hero is {name}')
+
+indx_count=0
+for letters in "abcde":
+    print('The index value of {} is {}'.format(letters,indx_count))
+    #OR#print(f'The index value of {letters} is {indx_count}')
+    indx_count+=1
